@@ -1,0 +1,39 @@
+.list {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 1rem !important;
+
+  .imgs {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  a {
+    background: rgb(244, 243, 243);
+    padding: 1rem;
+    box-shadow: var(--shadow-3);
+    border-radius: 1rem;
+    transition: all 0.3s ease-in;
+    height: 100%;
+    width: 100%;
+    p {
+      font-size: 0.7rem !important;
+      padding-top: 0.5rem;
+    }
+
+    &:hover {
+      transition: all 0.3s ease-in;
+      background: rgb(214, 214, 214);
+    }
+  }
+
+  img {
+    box-shadow: none !important;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    &:hover {
+      transition: all 0.3s ease-in;
+      transform: scale(0.9);
+    }
+  }
+}

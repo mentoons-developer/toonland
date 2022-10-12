@@ -1,0 +1,126 @@
+.ok {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  border-bottom: 0.1px solid rgba(128, 128, 128, 0.1);
+
+  animation-name: show;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+  // animation-delay: 0.4s;
+}
+
+.notok {
+  position: relative;
+  z-index: 999;
+}
+.header {
+  padding: 0.7rem 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eef9f3;
+  a {
+    display: grid;
+    place-items: center;
+  }
+  .back {
+    display: flex;
+    align-items: center;
+    img {
+      cursor: pointer;
+      height: 1rem;
+    }
+    margin: auto;
+  }
+  .logo {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.1));
+    cursor: pointer;
+  }
+  .info {
+    height: 2rem;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.2));
+  }
+  img {
+    height: 2rem;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vw;
+
+    img {
+      border: 0.1px solid rgba(128, 128, 128, 0.432);
+      cursor: pointer;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      // filter: drop-shadow(5px 5px 40px rgba(0, 0, 0, 0.75));
+      background: white;
+      padding: 0.2rem;
+      border-radius: 35%;
+      height: 2rem;
+    }
+  }
+  // display: none;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 0.7rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    .back {
+      display: flex;
+      align-items: center;
+      img {
+        cursor: pointer;
+        height: 1rem;
+      }
+      margin: auto;
+    }
+    .logo {
+      filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.1));
+      cursor: pointer;
+    }
+    .info {
+      height: 2rem;
+      cursor: pointer;
+      filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.2));
+    }
+    img {
+      // here
+      height: 4rem;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.2vw;
+
+      img {
+        border: 0.1px solid rgba(128, 128, 128, 0.432);
+        cursor: pointer;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        // filter: drop-shadow(5px 5px 40px rgba(0, 0, 0, 0.75));
+        background: white;
+        padding: 0.4rem;
+        border-radius: 35%;
+        height: 3rem;
+      }
+    }
+  }
+}
+
+@keyframes show {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}

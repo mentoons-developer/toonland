@@ -1,0 +1,178 @@
+.container {
+  position: sticky;
+  bottom: 0%;
+  width: 100%;
+  color: white;
+  background: black;
+  text-align: center;
+  z-index: 5;
+  a {
+    color: white;
+  }
+
+  overflow-x: hidden;
+}
+.asd1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  li {
+    text-align: center;
+    list-style: none;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    p {
+      // color: red;
+    }
+  }
+}
+
+.logo {
+  padding-top: 3rem;
+  width: 10rem;
+}
+.toonnews {
+  // background: red;
+  display: flex;
+  width: 15rem;
+  margin: auto;
+  // border: 1px solid gray;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: green;
+  span {
+    color: white;
+    padding: 0 0.5rem;
+  }
+  input {
+    background: white;
+    border-radius: 0.5rem 0 0 0.5rem;
+    border: 0;
+    width: 100%;
+    padding: 0.5rem;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.socialmedia {
+  display: grid;
+  place-items: center;
+  .wrapper {
+    position: relative;
+    width: 80vw;
+    height: 80vw;
+  }
+
+  .smboard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .list {
+    position: absolute;
+    bottom: 12%;
+    right: 17%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    img {
+      min-height: 2rem;
+      height: 2.5vw;
+      transition: all 0.3s ease-in;
+      filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.3));
+      &:hover {
+        filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.7));
+        cursor: pointer;
+        transform: scale(0.9);
+        transition: all 0.3s ease-in;
+      }
+    }
+  }
+}
+
+.textare {
+  background: white;
+  width: 15rem;
+  border-radius: 0.5rem;
+  // border: 1px solid gray;
+  textarea,
+  button {
+    width: 100%;
+    border-radius: 0 0 0.5rem 0.5rem;
+    border: 0;
+  }
+  button {
+    background-color: green;
+    padding: 0.5rem 1rem;
+    color: white;
+  }
+  textarea {
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    height: 2rem;
+    resize: none;
+    &:focus {
+      transition: all 0.3s ease-in-out;
+      outline: none;
+      height: 5rem;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .socialmedia {
+    .wrapper {
+      position: relative;
+      width: 40vw;
+      height: 40vw;
+    }
+
+    .smboard {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    place-items: center;
+  }
+
+  .socialmedia {
+    .wrapper {
+      position: relative;
+      width: 27vw;
+      height: 27vw;
+    }
+
+    .smboard {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1124px) {
+  .socialmedia {
+    .wrapper {
+      position: relative;
+      width: 22vw;
+      height: 22vw;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.notfound {
+  position: relative;
+  img {
+    width: 100vw;
+    display: flex;
+    justify-content: stretch;
+    min-height: 70vh;
+    object-fit: cover;
+    object-position: 20% 70%;
+  }
+  p {
+    font-family: "Times New Roman", Times, serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 1rem 1rem 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,85 @@
+.toolbar {
+  //   position: fixed;
+  //   right: 0;
+  //   top: 50%;
+  //   transform: translateY(-50%);
+
+  z-index: 99;
+  background: rgb(246, 243, 243);
+  height: 10rem;
+  width: 2.5rem;
+  border-radius: 1.4rem 0 0 1.4rem;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .tooltip {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    span {
+      display: none;
+      position: absolute;
+      right: 4rem;
+      bottom: 0;
+      cursor: pointer;
+      white-space: nowrap;
+      background-color: rgb(26, 107, 200);
+      color: white;
+      padding: 0.3rem 0.6rem;
+      border-radius: 0.3rem;
+    }
+    &:hover {
+      span {
+        display: block;
+      }
+    }
+  }
+  a {
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 70%;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.3));
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.ok {
+  z-index: 999;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  border-bottom: 0.1px solid rgba(128, 128, 128, 0.1);
+
+  animation-name: slideIn;
+  animation-delay: 0.4s;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+.notok {
+  display: none;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

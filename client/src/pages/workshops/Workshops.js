@@ -5,8 +5,10 @@ import workshop2 from "../../assets/workshop2.jpg";
 import workshop3 from "../../assets/workshop3.jpg";
 import workshop4 from "../../assets/workshop4.jpg";
 import workshops from "../../assets/explainer/workshops.png";
+import { useNavigate } from "react-router-dom";
 
 function Workshops() {
+  const Navigate = useNavigate();
   return (
     <div>
       <div className="wrapper">
@@ -21,28 +23,30 @@ function Workshops() {
           <div className={Styles.workshop}>
             <p>Workshop on Youtube</p>
             <img alt="" src={workshop1} />
-            <button>Register ★</button>
           </div>
           <div className={Styles.workshop}>
             <p>Workshop on Presentation</p>
             <img alt="" src={workshop2} />
-            <button>Register ★</button>
           </div>
           <div className={Styles.workshop}>
             <p>Workshop on Writing</p>
             <img alt="" src={workshop3} />
-            <button>Register ★</button>
           </div>
           <div className={Styles.workshop}>
             <p>Workshop on Finance Management</p>
             <img alt="" src={workshop4} />
-            <button>Register ★</button>
           </div>
         </div>
 
         <div className="container">
           <p>Register to our workshops that improve productivity.</p>
-          <button>Register ★ </button>
+          <button
+            onClick={() => {
+              Navigate("/workshop-form");
+            }}
+          >
+            Register ★
+          </button>
         </div>
       </div>
     </div>

@@ -25,13 +25,13 @@ function FooterComp() {
               <Link to="/interaction"> Fun & Interaction</Link>
             </li>
             <li>
+              <Link to="/workshops">Workshops</Link>
+            </li>
+            <li>
               <span> Our Team</span>
             </li>
             <li>
               <Link to="/careers"> Careers</Link>
-            </li>
-            <li>
-              <Link to="/faq"> FAQ</Link>
             </li>
           </ul>
         </div>
@@ -47,10 +47,14 @@ function FooterComp() {
             </li>
             <li>
               <p>Write your Feedback</p>
-              <div className={Styles.textare}>
-                <textarea placeholder="Write your feedback.." />
-                <button>Submit</button>
-              </div>
+              <form
+                action="http://localhost:3001/contact"
+                method="post"
+                className={Styles.textare}
+              >
+                <textarea name="feedback" placeholder="Write your feedback.." />
+                <button type="submit">Submit</button>
+              </form>
             </li>
           </ul>
         </div>

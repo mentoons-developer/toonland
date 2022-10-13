@@ -7,12 +7,12 @@ import contests from "../../assets/contests.png";
 import interact from "../../assets/interact.png";
 import schools from "../../assets/schools.png";
 import auditions from "../../assets/auditions.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Header from "../../components/header/Header";
 import audiostory from "../../assets/explainer/fun-interaction.png";
 
 function Interaction() {
-  const headerRef = useRef(null);
+  const Navigate = useNavigate();
 
   // useEffect(() => {
   //   if (window.scrollHeight > 1000) {
@@ -124,7 +124,13 @@ function Interaction() {
                 We wish to bring our innovative and productive workshops as far
                 and wide as possible.
               </p>
-              <button>Reach to us</button>
+              <button
+                onClick={() => {
+                  Navigate("/reachtous");
+                }}
+              >
+                Reach to us
+              </button>
             </div>
           </div>
         </div>

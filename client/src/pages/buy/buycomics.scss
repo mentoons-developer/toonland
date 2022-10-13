@@ -1,0 +1,80 @@
+.buy-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  input,
+  select {
+    padding: 0.5rem 2rem;
+    border-radius: 5rem;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    &::placeholder {
+      color: white;
+    }
+  }
+}
+.product-wrapper {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.54)),
+    url("../../assets/buy-bg.png");
+  min-height: 60vh;
+
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 2rem;
+  color: white;
+
+  i {
+    display: block;
+    border-radius: 3rem;
+    color: red;
+    background: white;
+    white-space: nowrap;
+    padding: 0.3rem 1rem;
+    margin: 2rem auto;
+    width: fit-content;
+    text-align: center;
+  }
+}
+.comics {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  max-width: 900px;
+  margin: 2rem auto;
+  padding-bottom: 2rem;
+  h2 {
+    padding-bottom: 2rem;
+    text-decoration: underline;
+    width: 100%;
+  }
+}
+.comics-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: 2rem;
+
+  img {
+    border-radius: 1rem;
+    width: 10rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.71);
+  }
+}
+
+@media (max-width: 600px) {
+  .product-wrapper {
+      padding: 1rem;
+      padding-top: 2rem;
+  }
+  .buy-header {
+    input,
+    select {
+      padding: 0.5rem 0.8rem;
+    }
+  }
+  .comics-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+    gap: 2rem;
+  }
+}

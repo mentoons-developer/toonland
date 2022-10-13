@@ -17,6 +17,9 @@
   flex-direction: column;
   gap: 1.5rem;
   margin-bottom: 3rem;
+  form {
+    padding: 0 !important;
+  }
   li {
     text-align: center;
     list-style: none;
@@ -101,6 +104,7 @@
   background: white;
   width: 15rem;
   border-radius: 0.5rem;
+  display: block !important;
   // border: 1px solid gray;
   textarea,
   button {

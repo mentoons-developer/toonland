@@ -144,7 +144,77 @@ h4 {
   box-shadow: var(--shadow-4);
 }
 
+form {
+  margin: 1.5rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  // border: 1px solid rgba(128, 128, 128, 0.435);
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: var(--shadow-3) !important;
+
+  p {
+    text-align: left !important;
+  }
+  // button {
+  //   width: 100%;
+  //   padding: 0.5rem 1rem;
+  //   border-radius: 0.5rem;
+  // }
+
+  input[type="radio"] {
+    margin-right: 1rem;
+    background: red;
+  }
+  label {
+    color: green;
+  }
+
+  input,
+  select {
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+  }
+}
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 @media only screen and (min-width: 600px) {
+  .form-bg {
+    background-color: red;
+    background-image: url("./assets/notfound.png");
+    background-size: auto 100%;
+    background-position: 40% 100%;
+    background-repeat: no-repeat;
+    padding: 3rem;
+
+    // background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(100px);
+  }
+  form {
+    margin: 0 auto !important;
+    padding: 2rem !important;
+    max-width: 33rem;
+
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+
+    p {
+      grid-column: 1/-1;
+    }
+    input {
+      width: 100% !important;
+    }
+    button {
+      grid-column: 1/-1;
+    }
+  }
   .wrapper {
     margin: 3rem;
     display: grid;

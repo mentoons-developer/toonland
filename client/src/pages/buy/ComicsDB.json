@@ -1,0 +1,70 @@
+[
+  {
+    "id": "1",
+    "chapter": "1",
+    "title": "fifi",
+    "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2020/01/draw-a-comic.jpg"
+  },
+  {
+    "id": "2",
+    "chapter": "1",
+    "title": "kuma",
+    "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2020/01/draw-a-comic.jpg"
+  },
+  {
+    "id": "3",
+    "chapter": "1",
+    "title": "tubby",
+    "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2020/01/draw-a-comic.jpg"
+  },
+  {
+    "id": "4",
+    "chapter": "1",
+    "title": "nubby",
+    "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2020/01/draw-a-comic.jpg"
+  },
+  {
+    "id": "5",
+    "chapter": "1",
+    "title": "toto",
+    "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2020/01/draw-a-comic.jpg"
+  },
+
+  {
+    "id": "11",
+    "chapter": "2",
+    "title": "Mivi",
+    "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2020/01/draw-a-comic.jpg"
+  },
+  {
+    "id": "12",
+    "chapter": "2",
+    "title": "Lulu",
+    "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2020/01/draw-a-comic.jpg"
+  },
+
+  {
+    "id": "21",
+    "chapter": "3",
+    "title": "Stella",
+    "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2020/01/draw-a-comic.jpg"
+  },
+  {
+    "id": "22",
+    "chapter": "3",
+    "title": "Bella",
+    "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2020/01/draw-a-comic.jpg"
+  },
+  {
+    "id": "23",
+    "chapter": "3",
+    "title": "lulu",
+    "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2020/01/draw-a-comic.jpg"
+  },
+  {
+    "id": "24",
+    "chapter": "3",
+    "title": "kuma",
+    "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2020/01/draw-a-comic.jpg"
+  }
+]

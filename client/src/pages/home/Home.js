@@ -225,7 +225,7 @@ function Home() {
 
       <div className={Styles.pg4}>
         <img
-          onClick={() => navigate("/toonmall")}
+          onClick={() => navigate("/buycomics")}
           className={Styles.mall}
           src={mall}
           alt="mall"

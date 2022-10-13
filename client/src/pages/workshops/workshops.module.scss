@@ -1,3 +1,13 @@
 .workshop {
   padding-bottom: 1.4rem;
+
+  position: relative;
+  button {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 40%;
+    font-size: 0.5rem !important;
+    width: fit-content !important;
+  }
 }

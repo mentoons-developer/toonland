@@ -1,0 +1,70 @@
+[
+  {
+    "id": "1",
+    "category": "stationaries",
+    "title": "Pencil",
+    "img": "https://firebasestorage.googleapis.com/v0/b/toonland-1007a.appspot.com/o/assets%2Fsamplecard.png?alt=media&token=3168ab71-8c24-4dd2-87dc-839cbf82f01a"
+  },
+  {
+    "id": "2",
+    "category": "stationaries",
+    "title": "Stapler",
+    "img": "https://firebasestorage.googleapis.com/v0/b/toonland-1007a.appspot.com/o/assets%2Fsamplecard.png?alt=media&token=3168ab71-8c24-4dd2-87dc-839cbf82f01a"
+  },
+  {
+    "id": "3",
+    "category": "stationaries",
+    "title": "Eraser",
+    "img": "https://firebasestorage.googleapis.com/v0/b/toonland-1007a.appspot.com/o/assets%2Fsamplecard.png?alt=media&token=3168ab71-8c24-4dd2-87dc-839cbf82f01a"
+  },
+  {
+    "id": "4",
+    "category": "stationaries",
+    "title": "Paper",
+    "img": "https://firebasestorage.googleapis.com/v0/b/toonland-1007a.appspot.com/o/assets%2Fsamplecard.png?alt=media&token=3168ab71-8c24-4dd2-87dc-839cbf82f01a"
+  },
+  {
+    "id": "5",
+    "category": "stationaries",
+    "title": "Bag",
+    "img": "https://firebasestorage.googleapis.com/v0/b/toonland-1007a.appspot.com/o/assets%2Fsamplecard.png?alt=media&token=3168ab71-8c24-4dd2-87dc-839cbf82f01a"
+  },
+
+  {
+    "id": "11",
+    "category": "gadgets",
+    "title": "Headphone",
+    "img": "https://firebasestorage.googleapis.com/v0/b/toonland-1007a.appspot.com/o/assets%2Fsamplecard.png?alt=media&token=3168ab71-8c24-4dd2-87dc-839cbf82f01a"
+  },
+  {
+    "id": "12",
+    "category": "gadgets",
+    "title": "Laptop",
+    "img": "https://firebasestorage.googleapis.com/v0/b/toonland-1007a.appspot.com/o/assets%2Fsamplecard.png?alt=media&token=3168ab71-8c24-4dd2-87dc-839cbf82f01a"
+  },
+
+  {
+    "id": "21",
+    "category": "transports",
+    "title": "Train",
+    "img": "https://firebasestorage.googleapis.com/v0/b/toonland-1007a.appspot.com/o/assets%2Fsamplecard.png?alt=media&token=3168ab71-8c24-4dd2-87dc-839cbf82f01a"
+  },
+  {
+    "id": "22",
+    "category": "transports",
+    "title": "Aeroplane",
+    "img": "https://firebasestorage.googleapis.com/v0/b/toonland-1007a.appspot.com/o/assets%2Fsamplecard.png?alt=media&token=3168ab71-8c24-4dd2-87dc-839cbf82f01a"
+  },
+  {
+    "id": "23",
+    "category": "transports",
+    "title": "Bike",
+    "img": "https://firebasestorage.googleapis.com/v0/b/toonland-1007a.appspot.com/o/assets%2Fsamplecard.png?alt=media&token=3168ab71-8c24-4dd2-87dc-839cbf82f01a"
+  },
+  {
+    "id": "24",
+    "category": "transports",
+    "title": "Ship",
+    "img": "https://firebasestorage.googleapis.com/v0/b/toonland-1007a.appspot.com/o/assets%2Fsamplecard.png?alt=media&token=3168ab71-8c24-4dd2-87dc-839cbf82f01a"
+  }
+]

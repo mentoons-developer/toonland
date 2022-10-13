@@ -70,9 +70,14 @@ function Mall() {
               We conduct weekly contests on quiz, characters of Toonland. Join
               our contests and win prizes.
             </p>
-            <Link to="/workshops">
-              <button>Register</button>
-            </Link>
+
+            <button
+              onClick={() => {
+                alert("We will anounce the Contest!");
+              }}
+            >
+              Register
+            </button>
           </div>
         </div>
       </div>

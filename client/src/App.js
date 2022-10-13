@@ -13,7 +13,6 @@ import Workshops from "./pages/workshops/Workshops";
 import Mall from "./pages/mall/Mall";
 import Faq from "./pages/faq/Faq";
 import Interaction from "./pages/interaction/Interaction";
-import Careers from "./pages/careers/Careers";
 import InteractWithUs from "./pages/interaction/interactWithUs/InteractWithUs";
 import Comics from "./pages/comics/Comics";
 import Toolbar from "./components/toolbar/Toolbar";
@@ -30,6 +29,10 @@ import Login from "./underdev/pages/auth/Login";
 
 import FirebaseUpload from "./underdev/firebase";
 import PageNotFound from "./pages/404.js/404";
+import Workshop from "./pages/forms/Workshop";
+import Careers from "./pages/forms/Careers";
+import ReachToUs from "./pages/forms/ReachToUs";
+import BuyComics from "./pages/buy/BuyComics";
 
 //
 
@@ -39,6 +42,7 @@ function App() {
       <Header />
       <Toolbar />
       <Routes>
+        <Route path="*" element={<PageNotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="/audiostory" element={<AudioStories />} />
         <Route path="/toonmusic" element={<Music />} />
@@ -54,7 +58,12 @@ function App() {
         <Route path="/faq" element={<Faq />} />
         <Route path="/plans" element={<SubscribePlan />} />
         <Route path="/refer" element={<Refer />} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="/buycomics" element={<BuyComics />} />
+
+        {/* ---Forms--- */}
+
+        <Route path="/workshop-form" element={<Workshop />} />
+        <Route path="/reachtous" element={<ReachToUs />} />
 
         {/* ---UNDER-DEV---  */}
 
